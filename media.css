@@ -1,0 +1,90 @@
+@media only screen and (min-width: 300px) and (max-width: 1024px) {
+    .logo-header{
+        width: 150px;
+    }
+    
+    .header-center{
+        display: none;
+    }
+
+    .header-right{
+        display: none;
+    }
+
+    .burger{
+        display: flex;
+    }
+
+    main{
+        flex-direction: column;
+        height: 1400px;
+        background-size: cover;
+    }
+
+    .main-text{
+        width: 100%;
+        height: 300px;
+        align-items: center;
+    }
+
+    .main-text > h1{
+        text-align: center;
+    }
+
+    .main-img{
+        width: 100%;
+        height: 800px;
+    }
+
+    .section1{
+        height: 2000px;
+    }
+
+    .section1-img{
+        height: auto;
+        flex-direction: column;
+    }
+
+    .section1-box{
+        width: 100%;
+        height: 470px;
+        justify-content: space-between;
+        padding-left: 20px;
+    }
+
+    .section2{
+        background-image: url(img/section2.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .section2-img{
+        display: none;
+    }
+
+    .section2-text{
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+
+    .section3{
+        flex-direction: column;
+        height: 1000px;
+        gap: 50px;
+    }
+
+    .section3-text{
+        width: 100%;
+        text-align: center;
+    }
+
+    .section3-img{
+        width: 80%;
+        height: 636px;
+    }
+
+    footer > h1{
+        font-size: 25px;
+    }
+}
